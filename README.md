@@ -14,7 +14,7 @@ Core Libraries:
 
 Useful reusable lines of code:
 - Dynamic binding example for serving static files properly: 
-- <link href="{{ url_for('static', filename='img/favicon.ico') }}" rel="shortcut icon">
+- "{{ url_for('static', filename='img/favicon.ico') }}"
 
 Protected (will not error on data that does not exist) way of getting data out of POST requests: 
 - request.form.get('create_new_account', "")
