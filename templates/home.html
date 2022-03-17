@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Page Title Here</title>
+    <meta name="description" content="">
+    <link href="{{ url_for('static', filename='img/favicon.ico') }}"  rel="shortcut icon">
+    <!-- Fonts -->
+
+    <!-- CSS styles -->
+
+  </head>
+
+  <body>
+    <!-- ***** UPLOADED MENU FROM HEADER.HTML ***** -->
+    {% include "header.html" %}
+ 
+
+    <!-- ***** UPLOADED FOOTER FROM FOOTER.HTML ***** -->
+    {% include "footer.html" %}
+
+  </div>
+
+<!-- Javascript -->
+<script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+flask
+gunicorn
+psycopg2
+requests
+Flask-login
+Flask-SQLAlchemy
+flask-cdn
+flask-cors
